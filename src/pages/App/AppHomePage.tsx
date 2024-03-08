@@ -3,7 +3,7 @@
 const AppHomePage = () => {
   return (
     <>
-    <div>AppHomePage</div>
+    <h1>AppHomePage</h1>
     </>
   )
 }
