@@ -14,9 +14,6 @@
   
   margin: 10px;
 }
-.app-container{
-  display: flex;
-}
 
 .app-content{
 width: 100%;
@@ -25,15 +22,3 @@ background-color: whitesmoke;
 
 }
 
-.sidebar{
-  width: 300px;
-  height: 100vh;
-  background-color: white;
-  position: sticky;
-  top: 0;
-}
-
-.sidebar *{
-  color: #000;
-  margin: 10px;
-}

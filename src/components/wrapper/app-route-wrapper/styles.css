@@ -1,0 +1,17 @@
+.app-container{
+    display: flex;
+  }
+
+  .sidebar{
+    width: 300px;
+    height: 100vh;
+    background-color: white;
+    position: sticky;
+    top: 0;
+  }
+  
+  .sidebar *{
+    color: #000;
+    margin: 10px;
+  }
+  

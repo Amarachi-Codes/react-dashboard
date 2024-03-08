@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "src/components/wrapper/app-route-wrapper/AppRouteWrapper.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
