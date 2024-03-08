@@ -1,5 +1,5 @@
 import AppCalenderPage from "./App/AppCalenderPage";
-import AppHomePage from "./App/AppHomePage";
+import AppHomePage from "./App/app-home-page/AppHomePage";
 import AppInvoicePage from "./App/AppInvoicePage";
 import AppMembersPage from "./App/AppMembersPage";
 import AppMessagesPage from "./App/AppMessagesPage";
