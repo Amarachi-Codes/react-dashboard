@@ -2,8 +2,7 @@ import { HomePage, ProjectPage } from './pages';
 import { Routes, Route, } from 'react-router-dom'
 import './App.css'
 import { AppRouteWrapper, HomeRouteWrapper } from './components';
-
-
+import {AppHomePage,AppProjectPage,AppTaskPage,AppMembersPage,AppInvoicePage,AppCalenderPage,AppTimesheetPage,AppMessagesPage,AppSettingsPage} from './pages'
 
 function App() {
 
@@ -17,8 +16,16 @@ function App() {
           <Route path='/' element={<HomePage />} />
           <Route path='/project' element={<ProjectPage />} />
         </Route>
-        <Route path='/app' element={<AppRouteWrapper/>}>
-
+        <Route path='/app' element={<AppRouteWrapper />}>
+          <Route index element={<AppHomePage />} />
+          <Route path='project' element={<AppProjectPage />} />
+          <Route path='task' element={<AppTaskPage />} />
+          <Route path='members' element={<AppMembersPage/>} />
+          <Route path='invoice' element={<AppInvoicePage />} />
+          <Route path='calender' element={<AppCalenderPage />} />
+          <Route path='timesheet' element={<AppTimesheetPage />} />
+          <Route path='messages' element={<AppMessagesPage />} />
+          <Route path='settings' element={<AppSettingsPage />} />
         </Route>
 
       </Routes>
