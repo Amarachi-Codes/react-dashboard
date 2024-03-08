@@ -1,11 +1,13 @@
 import { NavLink, Outlet } from "react-router-dom"
 import './styles.css';
+import AppProfile from "./AppProfile";
 
 const AppRouteWrapper = () => {
   return (
     <>
     <div className="app-container">
       <div className="sidebar">
+        <AppProfile/>
         <ul>
             <li>
                 <NavLink to={"/app"}>Home</NavLink>
