@@ -30,7 +30,29 @@
    font-weight:600; 
   }
 
-  
+  .profile{
+    width: 64px;
+    height: 68px;
+    border-radius: 50px;
+  }
+.profileWrapper{
+  text-align: center;
+  margin: 24px;
+  background-color: whitesmoke;
+  padding: 16px;
+}
+.name{
+  font-weight: 600;
+} 
 
-
+.email{
+  color: grey;
+  font-size: small;
+}
+.mybtn{
+  padding: 10px 44px;
+  color: purple;
+  background-color: #fff;
+  border: none;
+}
   

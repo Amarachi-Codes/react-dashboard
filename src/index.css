@@ -7,12 +7,22 @@
 .header{
   padding: 20px;
   background-color: royalblue;
+  position: sticky;
+  top:0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
 }
 
 .header *{
   color: white;
   
   margin: 10px;
+}
+.header-left input {
+  padding-left: 30px;
 }
 
 .app-content{

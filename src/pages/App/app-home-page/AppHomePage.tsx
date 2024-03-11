@@ -1,4 +1,7 @@
 
+
+
+import { LineGraph } from '../..'
 import './styles.css'
 const AppHomePage = () => {
   return (
@@ -10,6 +13,7 @@ const AppHomePage = () => {
       <div className="card"></div>
       <div className="card"></div>
     </div>
+   <LineGraph/>
     </>
   )
 }

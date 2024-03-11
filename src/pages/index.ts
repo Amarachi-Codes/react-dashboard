@@ -7,8 +7,10 @@ import AppProjectPage from "./App/AppProjectPage";
 import AppSettingsPage from "./App/AppSettingsPage";
 import AppTaskPage from "./App/AppTaskPage";
 import AppTimesheetPage from "./App/AppTimesheetPage";
-import HomePage from "./Home/HomePage";
+import NotificationPage from "./Home/NotificationPage";
 import ProjectPage from "./Home/ProjectPage";
+import LineGraph from "../components/charts/LineGraph";
 
 
-export{HomePage, ProjectPage,AppHomePage,AppProjectPage,AppTaskPage,AppMembersPage,AppInvoicePage,AppCalenderPage,AppTimesheetPage,AppMessagesPage,AppSettingsPage}
+
+export{NotificationPage, ProjectPage,AppHomePage,LineGraph,AppProjectPage,AppTaskPage,AppMembersPage,AppInvoicePage,AppCalenderPage,AppTimesheetPage,AppMessagesPage,AppSettingsPage,}
