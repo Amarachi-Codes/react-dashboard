@@ -1,49 +1,6 @@
-// import { Line } from "react-chartjs-2"
-
-
-// const LineChart = () => {
-//     const state ={
-//         labels:[
-//             "January", "Feburary","March","April","May","June","July","August","September","October","November","December"],
-//             datasets:[
-//                 {
-//                     label:"Task Overview",
-//                     backgroundColor:"rgba(75,192,192,1)",
-//                     borderColor:"rgba(0,0,0,1)",
-//                     borderWidth: 2,
-//                     data:[0, 200, 800, 0, -100, -20, 0, -100, -80, -80, 200,0]
-//                 }
-//             ]
-//     }
-//     const options ={
-//         plugins:{
-//             legend:{
-//                 display:true,
-//                 position: "bottom"
-//             },
-//             title:{
-//                 text:"Total tak completed in last 7 days",
-//                 display:true,
-//                 fontSize:20 
-//             }
-//         }
-//     }
-//   return (
-//     <div>
-//       <Line data={state}
-//       options={options}
-//       />
-
-//       <p style={{textAlign:"center"}}>Line Chart</p>
-//     </div>
-//   )
-// }
-
-// export default LineChart
-
-
 
 import {CartesianGrid,  Legend, Tooltip, Line, LineChart, XAxis, YAxis,} from "recharts";
+import "./styles.css";
 
 const data =[
     
@@ -63,15 +20,18 @@ const data =[
 const LineGraph = () => {
    
   return (
-    <div>
-      <LineChart width={600} height={300} data={data}>
+    <div className="Linechart">
+      <p className="LineTitle">Task Overview</p>
+      <p className="LineSubtitle">Total Completed task in last 7days</p>
+      <LineChart width={1110} height={350} data={data}>
         <Line 
         type ="monotone" 
         dataKey="task" 
-        stroke="#FF1903" 
+        stroke="#FF1903"
+        fill="#82ca9d" 
         strokeWidth={2}
         />
-        <CartesianGrid stroke="#ccc"/>
+        <CartesianGrid stroke="#efefef"/>
         <XAxis dataKey="name"/>
         <YAxis/>
         <Tooltip/>
