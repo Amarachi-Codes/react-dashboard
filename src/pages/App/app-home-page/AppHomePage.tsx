@@ -1,8 +1,10 @@
 
+// 
 
-
-import { LineGraph } from '../..'
+import { LineGraph, TopDueProjects,  } from '../..'
 import './styles.css'
+
+
 const AppHomePage = () => {
   return (
     <>
@@ -14,6 +16,10 @@ const AppHomePage = () => {
       <div className="card"></div>
     </div>
    <LineGraph/>
+   <div className='Footer'>
+    <TopDueProjects/>
+    <div>Timesheet Logged Hours</div>
+   </div>
     </>
   )
 }

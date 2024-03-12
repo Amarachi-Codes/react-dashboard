@@ -10,7 +10,8 @@ import AppTimesheetPage from "./App/AppTimesheetPage";
 import NotificationPage from "./Home/NotificationPage";
 import ProjectPage from "./Home/ProjectPage";
 import LineGraph from "../components/charts/LineGraph";
+import TopDueProjects from "../components/dueprojects/TopDueProjects";
 
 
 
-export{NotificationPage, ProjectPage,AppHomePage,LineGraph,AppProjectPage,AppTaskPage,AppMembersPage,AppInvoicePage,AppCalenderPage,AppTimesheetPage,AppMessagesPage,AppSettingsPage,}
+export{NotificationPage, ProjectPage,AppHomePage,LineGraph,AppProjectPage,AppTaskPage,AppMembersPage,AppInvoicePage,AppCalenderPage,AppTimesheetPage,AppMessagesPage,AppSettingsPage,TopDueProjects,}
