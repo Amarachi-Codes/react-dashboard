@@ -1,47 +1,64 @@
 import { NavLink, Outlet } from "react-router-dom"
 import './styles.css';
 import AppProfile from "./AppProfile";
+import { IoHomeSharp, IoSettingsOutline } from "react-icons/io5";
+import { GoProject } from "react-icons/go";
+import { BsListTask } from "react-icons/bs";
+import { MdCardMembership } from "react-icons/md";
+import { LiaFileInvoiceSolid } from "react-icons/lia";
+import { SlCalender } from "react-icons/sl";
+import { IoIosTime } from "react-icons/io";
+import { AiOutlineMessage } from "react-icons/ai";
 
 const AppRouteWrapper = () => {
   return (
     <>
-    <div className="app-container">
-      <div className="sidebar">
-        <AppProfile/>
-        <ul>
+      <div className="app-container">
+        <div className="sidebar">
+          <AppProfile />
+          <ul>
             <li>
-                <NavLink to={"/app"}>Home</NavLink>
+              <IoHomeSharp />
+              <NavLink to={"/app"}>Home</NavLink>
             </li>
             <li>
-                <NavLink to={"/app/project"}>Project</NavLink>
+              <GoProject />
+              <NavLink to={"/app/project"}>Project</NavLink>
             </li>
             <li>
-                <NavLink to={"/app/task"}>Task</NavLink>
+              <BsListTask />
+              <NavLink to={"/app/task"}>Task</NavLink>
             </li>
             <li>
-                <NavLink to={"/app/members"}>Members</NavLink>
+              <MdCardMembership />
+              <NavLink to={"/app/members"}>Members</NavLink>
             </li>
             <li>
-                <NavLink to={"/app/invoice"}>Invoice</NavLink>
+            <LiaFileInvoiceSolid />
+              <NavLink to={"/app/invoice"}>Invoice</NavLink>
             </li>
             <li>
-                <NavLink to={"/app/calender"}>Calender</NavLink>
+            <SlCalender />
+              <NavLink to={"/app/calender"}>Calender</NavLink>
             </li>
             <li>
-                <NavLink to={"/app/timesheet"}>Timesheet</NavLink>
+            <IoIosTime />
+              <NavLink to={"/app/timesheet"}>Timesheet</NavLink>
             </li>
             <li>
-                <NavLink to={"/app/messages"}>Messages</NavLink>
+            <AiOutlineMessage />
+              <NavLink to={"/app/messages"}>Messages</NavLink>
             </li>
             <li>
-                <NavLink to={"/app/settings"}>Settings</NavLink>
+            <IoSettingsOutline />
+              <NavLink to={"/app/settings"}>Settings</NavLink>
             </li>
-        </ul>
+          </ul>
+        </div>
+        <div className="app-content">
+          <Outlet />
+        </div>
       </div>
-      <div className="app-content">
-        <Outlet/>
-      </div>
-    </div>
     </>
   )
 }

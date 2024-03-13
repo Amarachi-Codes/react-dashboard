@@ -22,6 +22,9 @@
   .sidebar ul li{
     list-style: none;
     padding: 8px;
+    display: flex;
+    align-items: center;
+    
    
   }
 

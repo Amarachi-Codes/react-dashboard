@@ -1,5 +1,5 @@
 
-import { BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend,} from 'recharts';
 import "./styles.css";
 
 const data =[
@@ -15,10 +15,11 @@ const data =[
 const MyBarChart = () => {
   return (
     <div>
-           
+        <p className="LineTitle">Timesheet Logged Hours</p>
+      <p className="LineSubtitle"> Last 7days</p>   
         <BarChart
-          width={500}
-          height={300}
+          width={750}
+          height={250}
           data={data}
           
         >
@@ -28,7 +29,7 @@ const MyBarChart = () => {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Bar dataKey="days" fill="#8884d8" activeBar={<Rectangle fill="pink" stroke="blue" />} />
+          <Bar dataKey="days" fill="rgb(204,80,147)" activeBar={<Rectangle fill="rgb(157,87,168)" stroke="blue" />} />
           
         </BarChart>
       

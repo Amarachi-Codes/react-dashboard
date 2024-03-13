@@ -6,23 +6,41 @@
 }
 .header{
   padding: 20px;
-  background-color: royalblue;
+  background-color: white;
   position: sticky;
   top:0;
   z-index: 10;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  height: 68px;
+  border-bottom: 2px solid #efefef;
 }
 
 .header *{
-  color: white;
+  color: black;
   
   margin: 10px;
 }
+.header-left{
+  display: flex;
+  align-items: center;
+}
+.header-left span{
+  color: rgb(204,80,147);
+}
 .header-left input {
-  padding-left: 30px;
+  margin-left: 120px;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+  width: 280px;
+}
+.header-right{
+  display: flex;
+  align-items: center;
 }
 
 .app-content{
