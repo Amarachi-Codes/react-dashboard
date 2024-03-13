@@ -19,7 +19,7 @@ const MyBarChart = () => {
       <p className="LineSubtitle"> Last 7days</p>
       <BarChart
         width={750}
-        height={190}
+        height={200}
         data={data}
 
 
@@ -30,7 +30,7 @@ const MyBarChart = () => {
         <YAxis />
         <Tooltip />
         <Legend />
-        <Bar dataKey="days" fill="rgb(204,80,147)" activeBar={<Rectangle fill="rgb(157,87,168)" stroke="blue" />} />
+        <Bar dataKey="days" fill="rgba(212,77,148,1)" activeBar={<Rectangle fill="rgb(157,87,168)" stroke="blue" />} />
 
       </BarChart>
 

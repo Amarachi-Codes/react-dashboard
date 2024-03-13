@@ -16,19 +16,19 @@ h1{
 }
 
 .container .card:nth-child(1){
-    background-color: rgb(179, 37, 61);
+     background: linear-gradient(90deg, rgba(212,77,148,1) 0%, rgba(183,85,164,1) 65%, rgba(151,95,195,1) 100%);
 }
 
 .container .card:nth-child(2){
-    background-color: blueviolet;
+    background: linear-gradient(90deg, rgba(120,82,203,1) 0%, rgba(111,69,218,1) 65%, rgba(90,44,238,1) 100%);
 }
 
 .container .card:nth-child(3){
-    background-color: rgb(113, 191, 222);
+    background: linear-gradient(90deg, rgba(68,189,248,1) 0%, rgba(62,177,246,1) 65%, rgba(47,106,248,1) 100%);
 }
 
 .container .card:nth-child(4){
-    background-color: rgb(141, 207, 41);
+    background: linear-gradient(90deg, rgba(58,207,189,1) 0%, rgba(50,192,193,1) 65%, rgba(33,180,198,1) 100%);
 }
 .Footer{
     display: flex;
