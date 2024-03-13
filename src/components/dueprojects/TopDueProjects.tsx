@@ -5,8 +5,8 @@ const TopDueProjects = () => {
     return (
         <div className="Container">
             <h5>Top Due Projects</h5>
-            <p>23</p>
-            <p>Total Projects</p>
+            <p className="num">23</p>
+            <p className="total">Total Projects</p>
             <div className="list">
                 <ul>
                     <li>On hold</li>
