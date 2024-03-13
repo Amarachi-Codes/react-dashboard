@@ -1,7 +1,7 @@
 
 // 
 
-import { LineGraph, TopDueProjects,  } from '../..'
+import { LineGraph, MyBarChart, TopDueProjects,  } from '../..'
 import './styles.css'
 
 
@@ -18,7 +18,7 @@ const AppHomePage = () => {
    <LineGraph/>
    <div className='Footer'>
     <TopDueProjects/>
-    <div>Timesheet Logged Hours</div>
+    <MyBarChart/>
    </div>
     </>
   )
