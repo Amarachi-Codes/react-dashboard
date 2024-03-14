@@ -30,6 +30,14 @@ h1{
 .container .card:nth-child(4){
     background: linear-gradient(90deg, rgba(58,207,189,1) 0%, rgba(50,192,193,1) 65%, rgba(33,180,198,1) 100%);
 }
+.innerCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 12px 0;
+}
+
 .Footer{
     display: flex;
     align-items: center;
