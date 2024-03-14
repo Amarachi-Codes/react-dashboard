@@ -10,11 +10,11 @@ const data =[
     {name: "Apr", task: 0},
     {name: "May", task: -100},
     {name: "June", task: -20},
-    {name: "July", task: 0},
+    {name: "July", task: 300},
     {name: "Aug", task: -100},
-    {name: "Sep", task: -80},
+    {name: "Sep", task: 100},
     {name: "Oct", task: -80},
-    {name: "Nov", task: 200},
+    {name: "Nov", task: 400},
     {name: "Dec", task: 0},
 ];
 const LineGraph = () => {

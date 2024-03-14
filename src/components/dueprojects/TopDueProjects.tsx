@@ -25,7 +25,7 @@ const TopDueProjects = () => {
                 </ul>
                 <p>6</p>
             </div>
-            <div className="list">
+            <div className="list fourthlist">
                 <ul>
                     <li>Cancelled</li>
                 </ul>

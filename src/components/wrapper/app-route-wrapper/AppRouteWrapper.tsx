@@ -16,10 +16,10 @@ const AppRouteWrapper = () => {
       <div className="app-container">
         <div className="sidebar">
           <AppProfile />
-          <ul>
+          <ul >
             <li>
               <IoHomeSharp />
-              <NavLink to={"/app"}>Home</NavLink>
+              <NavLink to={"/app"} >Home</NavLink>
             </li>
             <li>
               <GoProject />

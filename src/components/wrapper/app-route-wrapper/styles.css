@@ -28,8 +28,8 @@
   .sidebar ul li:hover{
    background-color: pink;
    
+   
 }
-
 
   .sidebar ul li a{
    text-decoration: none;
@@ -39,7 +39,7 @@
   .profile{
     width: 64px;
     height: 64px;
-    border-radius: 50%;
+    border-radius: 100%;
   }
 .profileWrapper{
   text-align: center;
@@ -61,5 +61,10 @@
   color: purple;
   background-color: #fff;
   border: none;
+}
+.icons{
+padding-right: 10px;
+ 
+  
 }
   

@@ -44,6 +44,11 @@ h1{
 }
 .percentage p{
     padding:10px;
+    font-weight: bold;
+}
+.fig{
+    font-weight: bold;
+    padding-top: 4px;
 }
 
 .Footer{

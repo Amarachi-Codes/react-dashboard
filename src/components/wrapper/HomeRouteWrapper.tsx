@@ -7,11 +7,11 @@ const HomeRouteWrapper = () => {
     <div>
       <header className='header'>
         <div className="header-left">
-        <IoIosMenu />
+          <IoIosMenu />
           <span>Logo Here</span>
-        <input type="text" placeholder="search from message" />
+          <input type="text" placeholder="search from message" />
         </div>
-        
+
 
         <div className="header-right">
 

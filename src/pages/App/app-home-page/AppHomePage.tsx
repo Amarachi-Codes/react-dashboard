@@ -14,7 +14,7 @@ const AppHomePage = () => {
           <div className='innerCard'>
             <div>
               <p>Total Projects</p>
-              <p>3</p>
+              <p className='fig'>3</p>
             </div>
             <div className='percentage'>
               <p>46%</p>
@@ -26,7 +26,7 @@ const AppHomePage = () => {
         <div className='innerCard'>
             <div>
               <p>Total Tasks</p>
-              <p>18</p>
+              <p className='fig'>18</p>
             </div>
             <div className='percentage'>
               <p>74%</p>
@@ -37,7 +37,7 @@ const AppHomePage = () => {
         <div className='innerCard'>
             <div>
               <p>Total Expense</p>
-              <p>5</p>
+              <p className='fig'>5</p>
             </div>
             <div className='percentage'>
               <p>14%</p>
@@ -48,7 +48,7 @@ const AppHomePage = () => {
         <div className='innerCard'>
             <div>
               <p>Total Users</p>
-              <p>5</p>
+              <p className='fig'>5</p>
             </div>
             <div className='percentage'>
               <p>14%</p>

@@ -11,8 +11,8 @@ const AppProfile = () => {
       <p className='name'>Md Shimul Hassain</p>
       <p className='email'>mdshimulhassain11@gmail.com</p>
       <button className='mybtn'>My Overview</button>
-      <div>
-      <IoHomeSharp/>
+      <div >
+      <IoHomeSharp/><span className='icons'></span>
       <GoProject />
       </div>
     </div>
