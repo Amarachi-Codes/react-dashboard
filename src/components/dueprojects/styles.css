@@ -26,3 +26,12 @@
 .Container p{
     padding: 4px 0;
 }
+.firstlist ul li::marker{
+    color: rgb(227, 7, 179);
+}
+.secondlist ul li::marker{
+    color: rgb(167, 12, 167);
+}
+.thirdlist ul li::marker{
+    color: rgb(0, 152, 253);
+}

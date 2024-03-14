@@ -37,6 +37,14 @@ h1{
     color: white;
     padding: 12px 0;
 }
+.percentage{
+    border: 3px solid grey;
+    border-radius: 100%;
+    border-right:3px solid white;
+}
+.percentage p{
+    padding:10px;
+}
 
 .Footer{
     display: flex;

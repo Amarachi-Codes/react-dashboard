@@ -7,19 +7,19 @@ const TopDueProjects = () => {
             <h5>Top Due Projects</h5>
             <p className="num">23</p>
             <p className="total">Total Projects</p>
-            <div className="list">
+            <div className="list firstlist">
                 <ul>
                     <li>On hold</li>
                 </ul>
                 <p>12</p>
             </div>
-            <div className="list">
+            <div className="list secondlist">
                 <ul>
                     <li>In Process</li>
                 </ul>
                 <p>3</p>
             </div>
-            <div className="list">
+            <div className="list thirdlist">
                 <ul>
                     <li>Complete</li>
                 </ul>

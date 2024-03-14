@@ -28,7 +28,7 @@ const AppHomePage = () => {
               <p>Total Tasks</p>
               <p>18</p>
             </div>
-            <div>
+            <div className='percentage'>
               <p>74%</p>
             </div>
           </div>
@@ -39,7 +39,7 @@ const AppHomePage = () => {
               <p>Total Expense</p>
               <p>5</p>
             </div>
-            <div>
+            <div className='percentage'>
               <p>14%</p>
             </div>
           </div>
@@ -50,7 +50,7 @@ const AppHomePage = () => {
               <p>Total Users</p>
               <p>5</p>
             </div>
-            <div>
+            <div className='percentage'>
               <p>14%</p>
             </div>
           </div>
