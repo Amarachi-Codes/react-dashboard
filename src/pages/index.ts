@@ -15,4 +15,5 @@ import MyBarChart from "../components/charts/MyBarChart";
 
 
 
-export{NotificationPage, ProjectPage,AppHomePage,LineGraph,AppProjectPage,AppTaskPage,AppMembersPage,AppInvoicePage,AppCalenderPage,AppTimesheetPage,AppMessagesPage,AppSettingsPage,TopDueProjects,MyBarChart}
+
+export{NotificationPage, ProjectPage,AppHomePage,LineGraph,AppProjectPage,AppTaskPage,AppMembersPage,AppInvoicePage,AppCalenderPage,AppTimesheetPage,AppMessagesPage,AppSettingsPage,TopDueProjects,MyBarChart,}

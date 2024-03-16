@@ -1,0 +1,14 @@
+.MyButton{
+    padding: 2px;
+    width: 60px;
+    border: #efefef;
+    border-radius: 4px;
+}
+
+.coloredbtn{
+    background: linear-gradient(90deg, rgba(212,77,148,1) 0%, rgba(183,85,164,1) 65%, rgba(151,95,195,1) 100%);
+    padding: 2px;
+    width: 60px;
+    border: #efefef;
+    border-radius: 4px;
+}

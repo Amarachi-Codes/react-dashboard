@@ -4,7 +4,7 @@
 
   .sidebar{
     width: 300px;
-    height: 90vh;
+    height: 100vh;
     background-color: white;
     position: sticky;
     top: 0;
@@ -16,17 +16,17 @@
   }
 
   .sidebar ul{
-    margin: 30px 18px;
+    margin: 8px 18px;
   }
 
   .sidebar ul li{
     list-style: none;
-    padding: 6px;
+    padding: 4px 6px;
     display: flex;
     align-items: center;
   }
   .sidebar ul li:hover{
-   background-color: pink;
+    background: linear-gradient(90deg, rgba(212,77,148,1) 0%, rgba(183,85,164,1) 65%, rgba(151,95,195,1) 100%);
    
    
 }
@@ -46,7 +46,7 @@
   margin: 16px;
   border-radius: 10px;
   background-color: whitesmoke;
-  padding: 16px;
+  padding: 12px 16px;
 }
 .name{
   font-weight: 600;
@@ -55,9 +55,10 @@
 .email{
   color: grey;
   font-size: small;
+  padding-bottom: 2px;
 }
 .mybtn{
-  padding: 10px 44px;
+  padding: 2px ;
   color: purple;
   background-color: #fff;
   border: none;
@@ -66,5 +67,17 @@
 padding-right: 10px;
  
   
+}
+.overviewbtn{
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  justify-content: space-around;
+  width: 128px;
+  margin: 0 28px;
+  padding: 0 4px;
+  border-radius: 4px;
+  
+
 }
   

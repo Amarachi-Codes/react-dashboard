@@ -1,7 +1,7 @@
 
 // 
 
-import { LineGraph, MyBarChart, TopDueProjects, } from '../..'
+import { LineGraph, MyBarChart, TopDueProjects,} from '../..'
 import './styles.css'
 
 
