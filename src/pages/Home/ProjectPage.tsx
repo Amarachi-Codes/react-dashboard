@@ -3,7 +3,7 @@
 function ProjectPage() {
   return (
     <div>
-      <h1>Project Page</h1>
+      <h1>Profile Page</h1>
     </div>
   )
 }

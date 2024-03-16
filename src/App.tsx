@@ -1,4 +1,4 @@
- import { NotificationPage } from './pages';
+ import { NotificationPage, ProjectPage } from './pages';
 import { Routes, Route, } from 'react-router-dom'
 import './App.css'
 import { AppRouteWrapper, HomeRouteWrapper } from './components';
@@ -15,7 +15,7 @@ function App() {
         <Route path='/' element={<HomeRouteWrapper />}>
           <Route path='/' element={<AppRouteWrapper  />} />
           <Route path='/notification' element={<NotificationPage />} />
-          
+          <Route path='/project' element={<ProjectPage />} />
         </Route>
         
         <Route path='/' element={<HomeRouteWrapper />}>
