@@ -16,8 +16,8 @@ const HomeRouteWrapper = () => {
         <div className="header-right">
 
 
-          <Link to={'/'}><IoMdNotificationsOutline /></Link>
-          <Link to={'/project'}>
+          <Link to={'/notification'}><IoMdNotificationsOutline /></Link>
+          <Link to={'/app'}>
           <div className="profileDetails">
             <img src={profImg} className='profileHeader' />
             <div className="details">
