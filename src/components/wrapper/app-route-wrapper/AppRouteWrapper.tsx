@@ -18,7 +18,7 @@ const AppRouteWrapper = () => {
           <AppProfile />
           <ul >
             <li>
-              <IoHomeSharp />
+              <IoHomeSharp className="homeicon"/>
               <NavLink to={"/app"} >Home</NavLink>
             </li>
             <li>

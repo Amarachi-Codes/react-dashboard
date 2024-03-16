@@ -8,6 +8,8 @@
     background-color: white;
     position: sticky;
     top: 0;
+    
+ 
   }
   
   .sidebar *{
@@ -26,8 +28,8 @@
     align-items: center;
   }
   .sidebar ul li:hover{
-    background: linear-gradient(90deg, rgba(212,77,148,1) 0%, rgba(183,85,164,1) 65%, rgba(151,95,195,1) 100%);
-   
+    /* background: linear-gradient(90deg, rgba(212,77,148,1) 0%, rgba(183,85,164,1) 65%, rgba(151,95,195,1) 100%); */
+    background-color: rgb(250, 223, 228);
    
 }
 
@@ -35,7 +37,13 @@
    text-decoration: none;
    font-weight:600; 
   }
-
+  
+  .sidebar ul li a:hover{
+    color: purple;
+  }
+  .sidebar ul li .homeicon{
+    fill:purple
+  }
   .profile{
     width: 64px;
     height: 64px;

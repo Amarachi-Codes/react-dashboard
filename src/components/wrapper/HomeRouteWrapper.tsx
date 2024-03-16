@@ -1,7 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
 import { IoMdNotificationsOutline, IoIosMenu } from "react-icons/io";
-
-
+import profImg from './../../assets/profImg.jpg';
+import { MdArrowDropDown } from "react-icons/md";
 const HomeRouteWrapper = () => {
   return (
     <div>
@@ -17,8 +17,18 @@ const HomeRouteWrapper = () => {
 
 
           <Link to={'/'}><IoMdNotificationsOutline /></Link>
-          <Link to={'/project'}>Project</Link>
-
+          <Link to={'/project'}>
+          <div className="profileDetails">
+            <img src={profImg} className='profileHeader' />
+            <div className="details">
+              <p>Md Shimul Hoss</p>
+              <p>Ui/Ux Designer</p>
+            </div>
+            <div className="dropdown">
+              <MdArrowDropDown />
+            </div>
+          </div>
+          </Link>
         </div>
       </header>
       <Outlet />

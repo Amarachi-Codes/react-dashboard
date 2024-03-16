@@ -41,6 +41,10 @@
 .header-right{
   display: flex;
   align-items: center;
+  
+}
+.header-right a{
+  text-decoration: none;
 }
 .header-left span{
   font-weight: bold;
@@ -51,4 +55,30 @@ height: 300vh;
 background-color: whitesmoke;
 
 }
+.profileHeader{
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  margin: 0;
+}
 
+.profileDetails{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  
+}
+.details{
+  margin: 0;
+}
+.details p:nth-child(1){
+font-size: small;
+font-weight: bold;
+
+}
+.details p:nth-child(2){
+  font-size: x-small;
+  }
+  .dropdown{
+    margin: 0;
+  }
